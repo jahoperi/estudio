@@ -16,6 +16,8 @@ df = pd.read_excel(excel_file,
                    usecols='B:D',
                    header=3)
 
+st.dataframe(df)
+
 df_participants = pd.read_excel(excel_file,
                                 sheet_name= sheet_name,
                                 usecols='F:G',
